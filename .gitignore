@@ -1,0 +1,7 @@
+cache/
+output/
+*.pyc
+venv
+pelican.pid
+srv.pid
+.idea/
