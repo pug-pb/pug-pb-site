@@ -32,11 +32,17 @@
                 {% endif %}
                 {% if 'linkedin' in pessoa %}
                     <a title="LinkedIn"
-                       href="http://linkedin.com/{{ pessoa['linkedin'] }}"><i
+                       href="https://www.linkedin.com/in/{{ pessoa['linkedin'] }}"><i
                             class="fa fa-linkedin"></i></i></a>
                 {% endif %}
                 {% if 'site' in pessoa %}
                     <a title="{{ pessoa['site']['nome'] }}" href="{{ pessoa['site']['href'] }}"><i class="fa fa-globe"></i></i></a>
+                {% endif %}
+                {% if 'mail' in pessoa %}
+                    <a title="{{ pessoa['mail'] }}"
+                       href="mailto: {{ pessoa['mail'] }}">
+                        <i class="fa fa-mail"></i></i>
+                    </a>
                 {% endif %}
                 </div>
             </div>

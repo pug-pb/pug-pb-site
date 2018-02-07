@@ -2,10 +2,9 @@
 # -*- coding: utf-8 -*- #
 import os
 import sys
+from collections import OrderedDict
 
 sys.path.append(os.curdir)
-
-from collections import OrderedDict
 
 AUTHOR = 'PUG-PB'
 SITENAME = 'PUG-PB'
@@ -44,10 +43,10 @@ ARTICLE_SAVE_AS = 'blog/{slug}/index.html'
 PAGE_URL = '{slug}'
 PAGE_SAVE_AS = '{slug}.html'
 
-CATEGORIES_URL = 'blog/categorias'
-CATEGORIES_SAVE_AS = 'blog/categorias/index.html'
 CATEGORY_URL = 'blog/categorias/{slug}'
 CATEGORY_SAVE_AS = 'blog/categorias/{slug}/index.html'
+CATEGORIES_URL = 'blog/categorias'
+CATEGORIES_SAVE_AS = 'blog/categorias/index.html'
 
 TAG_URL = 'blog/tags/{slug}'
 TAG_SAVE_AS = 'blog/tags/{slug}/index.html'
@@ -84,6 +83,7 @@ PLUGINS = [
 
 RESPONSIVE_IMAGES = True
 PYGMENTS_STYLE = "perldoc"
+# PYGMENTS_STYLE = "friendly"
 SITEMAP = {
     'format': 'xml',
     'priorities': {
@@ -122,15 +122,15 @@ NAVBAR_HOME_LINKS = [
 NAVBAR_BLOG_LINKS = NAVBAR_HOME_LINKS + [
     {
         "title": "Categorias",
-        "href": "blog/categorias.html",
+        "href": "blog/categorias/index.html",
     },
     {
         "title": "Autores",
-        "href": "blog/autores.html",
+        "href": "blog/autores/index.html",
     },
     {
         "title": "Tags",
-        "href": "blog/tags.html",
+        "href": "blog/tags/index.html",
     },
 ]
 
@@ -145,11 +145,11 @@ SOCIAL_LINKS = (
         "icon": "fa-github",
         "text": "GitHub",
     },
-    {
-        "href": "https://twitter.com/__pugpb__",
-        "icon": "fa-twitter",
-        "text": "Twitter",
-    },
+    # {
+    #     "href": "https://twitter.com/__pugpb__",
+    #     "icon": "fa-twitter",
+    #     "text": "Twitter",
+    # },
     {
         "href": "https://www.facebook.com/pug-pb",
         "icon": "fa-facebook",
@@ -174,7 +174,7 @@ MEMBROS = OrderedDict((
         "github": "hilam",
         "linkedin": "hildeberto",
         "site": {
-            "nome": "Facetas",
+            "nome": "H1L4M",
             "href": "http://hilam.github.io",
             }
         }),
@@ -206,7 +206,7 @@ MALT_HOME = [
                 "buttons": [
                     {
                         "text": "Saiba Mais",
-                        "href": "/comunidade.html",
+                        "href": "comunidade.html",
                     },
                 ],
             },
@@ -219,7 +219,7 @@ MALT_HOME = [
                 "buttons": [
                     {
                         "text": "Conheça",
-                        "href": "/membros.html",
+                        "href": "membros.html",
                     },
                 ],
             },
@@ -232,7 +232,7 @@ MALT_HOME = [
                 "buttons": [
                     {
                         "text": "Mais detalhes",
-                        "href": "/projetos.html",
+                        "href": "projetos.html",
                     },
                 ],
             },

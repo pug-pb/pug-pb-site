@@ -5,7 +5,7 @@ Tags: pug-pb, blog, evento
 Slug: meetup-virtual-bdd-django
 Authors: Fernando Júnior, Hildeberto Abreu, Newton Galiza, Renato César
 Summary: PUG-PB promove meetup virtual 
-image: meetup-virtual-bdd-django.jpg
+image: /images/virtual-meetup.jpg
 
 ## MeetUp Virtual BDD Django
 

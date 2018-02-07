@@ -3,8 +3,7 @@ Date: 2016-10-28 10:00
 Tags: python, zen
 Slug: zen-python
 Category: Blog
-
-![Mascote do Grupo]({filename}/images/pug-pb.png)
+image: /images/pug-pb.png
 
 Saudações Pythônicas!
 

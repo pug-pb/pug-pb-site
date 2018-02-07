@@ -4,6 +4,7 @@ Category: Blog
 Tags: python, fun, comic
 Slug: diversao-garantida
 Authors: Hildeberto Abreu
+image: /images/xkcd-python.png
 Summary: Tirinhas e memes co Python
 
 Além de ser uma linguagem de programação boa de aprender e usar, Python também
