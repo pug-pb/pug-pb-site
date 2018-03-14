@@ -196,7 +196,8 @@ MEMBROS = OrderedDict((
         "github": "emanuel-gomes"
     }),
     ("Gustavo", {
-        "linkedin": "gustavo-diniz-monteiro-9077b2133"
+        "linkedin": "gustavo-diniz-monteiro-9077b2133",
+        "github": "GustavoDinizMonteiro"
     })
 ))
 
