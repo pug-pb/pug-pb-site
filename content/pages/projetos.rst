@@ -1,4 +1,4 @@
-PUG-PB
-######
+Projetos
+########
 :slug: projetos
-:template: home
+:template: projetos

@@ -145,11 +145,11 @@ SOCIAL_LINKS = (
         "icon": "fa-github",
         "text": "GitHub",
     },
-    # {
-    #     "href": "https://twitter.com/__pugpb__",
-    #     "icon": "fa-twitter",
-    #     "text": "Twitter",
-    # },
+    {
+        "href": "https://twitter.com/pug_pb",
+        "icon": "fa-twitter",
+        "text": "Twitter",
+    },
     {
         "href": "https://www.facebook.com/pug-pb",
         "icon": "fa-facebook",
@@ -180,15 +180,24 @@ MEMBROS = OrderedDict((
         }),
     ("Janaína", {
         "email": "janagaliza@gmail.com",
-        "twitter": "@janagaliza",
-        "github": "janagaliza"
         }),
     ("Newton", {
         "email": "newtonjgaliza@gmail.com",
         "linkedin": "newton-galiza-64108766",
         "twitter": "@NewtonGaliza",
         "github": "NewtonGaliza"
-        })
+        }),
+    ("Allisson", {
+        "linkedin": "allisson",
+        "github": "allisson"
+    }),
+    ("Emanuel", {
+        "linkedin": "emanuel-gomes-ferreira",
+        "github": "emanuel-gomes"
+    }),
+    ("Gustavo", {
+        "linkedin": "gustavo-diniz-monteiro-9077b2133"
+    })
 ))
 
 MALT_HOME = [

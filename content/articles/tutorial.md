@@ -1,10 +1,11 @@
 Title: Tutorial da linguagem de marcação Markdown
 Date: 2016-11-17 01:30
 Category: Blog
-Tags: pug-pb, blog, tutorial, markdown
+Tags: tutorial, markdown
 Slug: tutorial-markdown
-Authors: Hildeberto Abreu
-Summary: Principais elementos da sintaxe da linguagem de marcação Markdown, a ser utilizada neste blog.
+Authors: Hildeberto
+Summary: Principais elementos da sintaxe da linguagem de marcação Markdown, 
+que é utilizada para gerar conteúdo neste blog.
 
 
 Principais elementos da sintaxe Markdown

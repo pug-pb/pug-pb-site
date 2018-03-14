@@ -1,9 +1,10 @@
 Title: Primeira reunião
 Date: 2016-11-01 10:00
 Category: Blog
-Tags: pug-pb, organization
+Tags: organization, staff
 Slug: primeira-reuniao
 Authors: Eduardo Araújo, Hildeberto Abreu, Naamã Lima, Fernando Júnior
+image: /images/monty-python-knights.jpg
 Summary: Primeira reunião de organização do PUG-PB
 
 

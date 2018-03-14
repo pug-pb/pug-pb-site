@@ -1,9 +1,10 @@
 Title: Segunda reunião
 Date: 2016-11-21 10:00
 Category: Blog
-Tags: pug-pb, organization
+Tags: organization, staff
 Slug: segunda-reuniao
 Authors: Eduardo Araújo, Hildeberto Abreu, Fernando Júnior, Smith Lima
+image: /images/pugpb.png
 Summary: Segunda reunião de organização do PUG-PB
 
 

@@ -1,14 +1,18 @@
 Title: Zen de Python
 Date: 2016-10-28 10:00
-Tags: python, zen
+Tags: python, pythonic, zen
 Slug: zen-python
 Category: Blog
 image: /images/pug-pb.png
 
 Saudações Pythônicas!
+---------------------
 
+	#/usr/bin/python3
+	>>> import this
+	
 
-# O Zen do Python, por Tim Peters
+## O Zen do Python
 
 Bonito é melhor que feio.
 
@@ -48,3 +52,5 @@ Se a implementação é fácil de explicar, pode ser uma boa ideia.
 
 Namespaces são uma grande ideia — vamos ter mais dessas!
 
+
+**Tim Peters**
