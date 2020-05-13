@@ -3,14 +3,15 @@ Date: 2016-10-28 10:00
 Tags: python, pythonic, zen
 Slug: zen-python
 Category: Blog
+Summary: Conheça mais sobre o Zen de Python
 image: /images/pug-pb.png
 
-Saudações Pythônicas!
----------------------
+### Saudações Pythônicas
 
-	#/usr/bin/python3
-	>>> import this
-	
+``` python
+
+    >>> import this
+```
 
 ## O Zen do Python
 

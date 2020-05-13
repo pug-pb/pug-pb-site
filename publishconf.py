@@ -6,13 +6,14 @@
 
 import os
 import sys
+
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://pug-pb.github.io'
+SITEURL = "https://pb.python.org.br"
 RELATIVE_URLS = False
 
-FEED_ALL_ATOM = 'blog/feeds.atom'
-FEED_ALL_RSS = 'blog/feeds.rss'
+FEED_ALL_ATOM = "feeds/all.atom.xml"
+CATEGORY_FEED_ATOM = "feeds/{slug}.atom.xml"
 
 DELETE_OUTPUT_DIRECTORY = True

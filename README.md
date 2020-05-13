@@ -1,7 +1,7 @@
 PUG-PB
 ======
 
-[Site do PUG-PB](http://pb.python.org.br/)
+[Fonte do Site do PUG-PB](http://pb.python.org.br/)
 
 Seja bem vindo!
 
@@ -9,14 +9,12 @@ Seja bem vindo!
 
 Repositório do site oficial do Grupo de Usuários Python na Paraíba.
 
-Divulgamos a linguagem Python na Paraíba, participando de eventos, organizando 
-eventos e contribuindo com projetos Open Source!
+Divulgamos a linguagem Python na Paraíba.
 
 Junte-se a nós:
- 
+
 [Lista de Email](https://groups.google.com/forum/#!forum/pug-pb)
 
 [Telegram](https://t.me/pugpb)
 
 [Facebook](https://facebook.com/pug-pb)
-

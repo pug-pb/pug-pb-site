@@ -5,10 +5,10 @@ Tags: pug-pb, blog, <sua tag>, <sua tag>
 Slug: <nome do html gerado, ex.: titulo-artigo>
 Authors: <Seu nome>
 Summary: <Descrição sucinta do artigo>
+image: /images/<nome do arquivo de imagem>
 
 ### Cabeçalho
 
 Escreva seu artigo utilizando as marcações markdown.
 
 * Isto é só um exemplo
-

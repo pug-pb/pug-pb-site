@@ -3,12 +3,11 @@ Date: 2017-11-16 10:00
 Category: Blog
 Tags: pug-pb, blog
 Slug: parceria
-Authors: Fernando Júnior, Hildeberto Abreu, Newton Galiza
+Authors: Fernando
 Summary: Jetbrains libera licenças para sortear nos nossos eventos
+image: /images/parceriaJetb.jpg
 
 ### Parceria com a Jetbrains
-
-![Parceria do PUG-PB com a Jetbrains]({filename}/images/parceriaJetb.jpg)
 
 A partir do próximo meetup do PUG-PB [(Eventos)](pages/eventos.html),
 passaremos a sortear licenças para utilização em qualquer produto da

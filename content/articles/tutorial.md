@@ -4,9 +4,8 @@ Category: Blog
 Tags: tutorial, markdown
 Slug: tutorial-markdown
 Authors: Hildeberto
-Summary: Principais elementos da sintaxe da linguagem de marcação Markdown, 
-que é utilizada para gerar conteúdo neste blog.
-
+Summary: Principais elementos da sintaxe da linguagem de marcação Markdown, que é utilizada para gerar conteúdo neste blog.
+image: /images/markdown.png
 
 Principais elementos da sintaxe Markdown
 ========================================
@@ -377,14 +376,33 @@ __dois sublinhados__
 
 #### CÓDIGO
 
-Par indicar um trecho de código use (`). Pode inserir código num parágrfo normal.
+Para indicar um trecho de código use (`). 
 
-    Use the `printf()` function.
+Pode-se inserir código num parágrfo normal.
+
+    Use a função `printf()` para imprimir em Python.
 
 produzirá:
 
-Use the `printf()` function.
+Use a função `printf()` para imprimir em Python.
 
+Pode-se inserir um trecho de código.
+
+    import math
+
+    def area_circulo(raio):
+        return math.pi * raio * raio
+
+produzirá:
+
+```
+
+import math
+
+def area_circulo(raio):
+    return math.pi * raio * raio
+
+```
 
 #### IMAGENS
 
@@ -394,20 +412,11 @@ Imagens com sintaxe "inline" são assim:
 
     ![Alt text](/path/to/img.jpg)
 
-    ![Alt text](/path/to/img.jpg "Optional title")
-
-![Alt text](/path/to/img.jpg)
-
-![Alt text](/path/to/img.jpg "Optional title")
-
+    ![Alt text](/path/to/img.jpg "Título opcional")
 
     ![Alt text][id]
 
-    [id]: url/to/image  "Optional title attribute"
-
-![Alt text][id]
-
-[id]: url/to/image  "Optional title attribute"
+    [id]: url/to/image  "Título opcional"
 
 
 #### LINKS AUTOMÁTICOS
@@ -427,9 +436,9 @@ Imagens com sintaxe "inline" são assim:
 
 Markdown permite usar a contra-barra para gerar caracteres literais:
 
-    \*literal asterisks\*
+    \*como o \* faz parte da marcação, é necessário colocar a contra-barra (\\) antes do \*
 
-\*literal asterisks\*
+\*como o \* faz parte da marcação, é necessário colocar a contra-barra (\\) antes do \*
 
 Use a contra-barra se quiser colocar algum desses caracteres no texto:
 

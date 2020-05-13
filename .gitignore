@@ -1,7 +1,14 @@
 cache/
+__pycache__/
 output/
 *.pyc
-venv
+venv/
 pelican.pid
 srv.pid
 .idea/
+.vscode/
+.tool-versions
+poetry.lock
+pyproject.toml
+Pipfile
+Pipfile.lock

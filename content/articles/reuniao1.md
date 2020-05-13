@@ -3,7 +3,7 @@ Date: 2016-11-01 10:00
 Category: Blog
 Tags: organization, staff
 Slug: primeira-reuniao
-Authors: Eduardo Araújo, Hildeberto Abreu, Naamã Lima, Fernando Júnior
+Authors: Eduardo Araújo
 image: /images/monty-python-knights.jpg
 Summary: Primeira reunião de organização do PUG-PB
 
@@ -14,6 +14,6 @@ No dia 29 de outubro de 2016, às 15 horas, aconteceu na praça de alimentação
 um shopping em João Pessoa, a primeira reunião de pessoas interessadas em
 organizar e manter um Grupo de Usuários Python na Paraíba.
 
-Resultados da reunião na ata:
+Como registro histórico, aqui está a ata daquele dia. Mas muita coisa mudou de lá pra cá...
 
-[Ata da reunião do PUG-PB, em 29.10.2016]({filename}/pdfs/reuniao-001.pdf)
+[Ata da reunião do PUG-PB, em 29.10.2016](/pdfs/reuniao-001.pdf)
