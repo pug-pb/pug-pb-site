@@ -90,13 +90,14 @@ SITEMAP = {
     "changefreqs": {"articles": "daily", "indexes": "daily", "pages": "monthly"},
 }
 
-GITHUB_REPO = "http://github.com/pug-pb/pug-pb.github.io"
-GITHUB_BRANCH = "pelican"
+GITHUB_REPO = "http://github.com/pug-pb/pug-pb-site"
+GITHUB_BRANCH = "master"
 # TWITTER = "@__pugpb__"
 OPEN_GRAPH_IMAGE = "/images/logo/pug-logo.png"
 
 # Navbar Links
 NAVBAR_HOME_LINKS = [
+    {"title": "Eventos", "href": "eventos.html",},
     {"title": "Comunidade", "href": "comunidade.html",},
     {"title": "Membros", "href": "membros.html",},
     {"title": "Blog", "href": "blog/index.html",},
@@ -172,6 +173,14 @@ MALT_HOME = [
         "title": "O que Fazemos?",
         "items": [
             {
+                "title": "Eventos",
+                "icon": "fa-calendar-day",
+                "text": "Os eventos que a comunidade organizou e os que "
+                "estão programados pra acontecer. Informações, inscrições, "
+                "submissões de palestras.",
+                "buttons": [{"text": "Mais detalhes", "href": "eventos.html",},],
+            },
+            {
                 "title": "Comunidade",
                 "icon": "fa-comments",
                 "text": "A comunidade do PUG-PB se comunica através da lista "
@@ -188,13 +197,57 @@ MALT_HOME = [
                 "sociais etc. ",
                 "buttons": [{"text": "Conheça", "href": "membros.html",},],
             },
+        ],
+    },
+]
+
+EVENTOS_PROGRAMADOS = [
+    {
+        "color": "red lighten-5",
+        "title": "Eventos Programados",
+        "items": [
             {
-                "title": "Projetos",
-                "icon": "fa-briefcase",
-                "text": "O principal projeto atual do PUG-PB é a organização "
-                "da conferência Python Nordeste 2018, que se realizará "
-                "de 24 a 26 de maio, em Campina Grande.",
-                "buttons": [{"text": "Mais detalhes", "href": "projetos.html",},],
+                "title": "1º MeetUp Virtual 2020",
+                "icon": "fa-calendar-check",
+                "text": "Live no Youtube com palestrantes da comunidade "
+                "e um convidado especial. ",
+                "buttons": [{"text": "Mais detalhes", "href": "evento-prog.html",},],
+            },
+        ],
+    },
+]
+
+EVENTOS_ANTERIORES = [
+    {
+        "color": "red lighten-5",
+        "title": "Eventos Anteriores",
+        "items": [
+            {
+                "title": "Python Nordeste 2018",
+                "icon": "far fa-sun",
+                "text": "Conferência da comunidade Python Nordeste do ano "
+                "de 2018, em Campina Grande-PB ",
+                "buttons": [
+                    {"text": "Mais detalhes", "href": "evento-20180522.html",},
+                ],
+            },
+            {
+                "title": "MeetUp PUG-PB Guarabira",
+                "icon": "fa-book-open",
+                "text": "Conferência da comunidade no Instituto Federal da "
+                "cidade de Guarabira-PB, em 04/2018 ",
+                "buttons": [
+                    {"text": "Mais detalhes", "href": "evento-20180406.html",},
+                ],
+            },
+            {
+                "title": "MeetUp PUG-PB Rio Tinto",
+                "icon": "fa-university",
+                "text": "Conferência da comunidade no Campus da UFPB da cidade "
+                "de Rio Tinto-PB, em 03/2018 ",
+                "buttons": [
+                    {"text": "Mais detalhes", "href": "evento-20180328.html",},
+                ],
             },
         ],
     },
