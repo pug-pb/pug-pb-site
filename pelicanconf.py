@@ -201,17 +201,18 @@ MALT_HOME = [
     },
 ]
 
-EVENTOS_PROGRAMADOS = [
+EVENTO_PROGRAMADO = [
     {
         "color": "red lighten-5",
-        "title": "Eventos Programados",
+        "title": "Evento Programado",
         "items": [
             {
                 "title": "1º MeetUp Virtual 2020",
                 "icon": "fa-calendar-check",
-                "text": "Live no Youtube com palestrantes da comunidade "
-                "e um convidado especial. ",
-                "buttons": [{"text": "Mais detalhes", "href": "evento-prog.html",},],
+                "text": "Live no nosso canal Youtube",
+                "date": "30/05/2020 16:00h",
+                "link": "https://youtu.be/rmCElTofs4s",
+                "talks": "https://bit.ly/pugpb-talks",
             },
         ],
     },
@@ -227,27 +228,21 @@ EVENTOS_ANTERIORES = [
                 "icon": "far fa-sun",
                 "text": "Conferência da comunidade Python Nordeste do ano "
                 "de 2018, em Campina Grande-PB ",
-                "buttons": [
-                    {"text": "Mais detalhes", "href": "evento-20180522.html",},
-                ],
+                # "buttons": [{"text": "Mais detalhes", "href": "#",},],
             },
             {
                 "title": "MeetUp PUG-PB Guarabira",
                 "icon": "fa-book-open",
                 "text": "Conferência da comunidade no Instituto Federal da "
                 "cidade de Guarabira-PB, em 04/2018 ",
-                "buttons": [
-                    {"text": "Mais detalhes", "href": "evento-20180406.html",},
-                ],
+                # "buttons": [{"text": "Mais detalhes", "href": "#",},],
             },
             {
                 "title": "MeetUp PUG-PB Rio Tinto",
                 "icon": "fa-university",
                 "text": "Conferência da comunidade no Campus da UFPB da cidade "
                 "de Rio Tinto-PB, em 03/2018 ",
-                "buttons": [
-                    {"text": "Mais detalhes", "href": "evento-20180328.html",},
-                ],
+                # "buttons": [{"text": "Mais detalhes", "href": "#",},],
             },
         ],
     },
