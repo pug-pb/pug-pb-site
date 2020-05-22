@@ -5,6 +5,8 @@ import sys
 from collections import OrderedDict
 
 sys.path.append(os.curdir)
+from pugpb import members_of
+
 
 AUTHOR = "PUG-PB"
 SITENAME = "PUG-PB"
@@ -36,7 +38,7 @@ EXTRA_PATH_METADATA = {
 
 WELCOME_TITLE = "Seja bem vindo ao {}!".format(SITENAME)
 WELCOME_TEXT = "Grupo de usuários da linguagem Python na Paraíba."
-SITE_BACKGROUND_IMAGE = "images/banners/por-do-sol.jpg"
+SITE_BACKGROUND_IMAGE = "images/banners/inga-inscriçoes-rupestres.jpg"
 FOOTER_ABOUT = META_DESCRIPTION
 
 DEFAULT_LANG = "pt"
@@ -125,47 +127,7 @@ SOCIAL_LINKS = (
     },
 )
 
-MEMBROS = OrderedDict(
-    (
-        (
-            "Fernando",
-            {
-                "email": "junio.webmaster@gmail.com",
-                "linkedin": "fernand-junio",
-                "github": "junioweb",
-            },
-        ),
-        (
-            "Hildeberto",
-            {
-                "email": "hildeberto@gmail.com",
-                "twitter": "@__hilam__",
-                "github": "hilam",
-                "linkedin": "hildeberto",
-                "site": {"nome": "H1L4M", "href": "http://hilam.github.io",},
-            },
-        ),
-        ("Emanuel", {"linkedin": "emanuel-gomes-ferreira", "github": "emanuel-gomes"}),
-        ("Janaína", {"email": "janagaliza@gmail.com",}),
-        (
-            "Newton",
-            {
-                "email": "newtonjgaliza@gmail.com",
-                "linkedin": "newton-galiza-64108766",
-                "twitter": "@NewtonGaliza",
-                "github": "NewtonGaliza",
-            },
-        ),
-        ("Allisson", {"linkedin": "allisson", "github": "allisson"}),
-        (
-            "Gustavo",
-            {
-                "linkedin": "gustavo-diniz-monteiro-9077b2133",
-                "github": "GustavoDinizMonteiro",
-            },
-        ),
-    )
-)
+MEMBROS = OrderedDict(members_of(["pug-pb", "PUG-PB-Traducao"]))
 
 MALT_HOME = [
     {
