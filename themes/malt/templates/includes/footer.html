@@ -7,15 +7,17 @@
                     {{ FOOTER_ABOUT }}
                 </p>
 
-
+                <h5 class="white-text">Código de Conduta da Comunidade</h5>
+                <p class="grey-text text-lighten-4">
+                    <a href="blog/cdc">Acesse aqui.</a>
+                </p>
             </div>
             <div class="col l3 offset-l3 s12">
                 <h5 class="white-text">Social</h5>
                 <ul class="social-links">
                     {% for link in SOCIAL_LINKS %}
                     <li>
-                        <a class="white-text" href="{{ link['href'] }}"
-                           title="{{ link['text']}}">
+                        <a class="white-text" href="{{ link['href'] }}" title="{{ link['text']}}">
                             <i class="fa {{ link['icon'] }}"></i> {{
                             link['text'] }}
                         </a>
@@ -28,14 +30,10 @@
     <div class="footer-copyright {{ MALT_BASE_COLOR }} darken-4">
         <div class="container">
             Feito com
-            <a class="orange-text text-lighten-3"
-               href="http://materializecss.com">Materialize</a>,
-            <a class="orange-text text-lighten-3"
-               href="https://github.com/getpelican/pelican">Pelican</a>,
-            <a class="orange-text text-lighten-3" href="https://python.org/">Python</a>
+            <a class="orange-text text-lighten-3" href="https://python.org/">Python</a>,
+            <a class="orange-text text-lighten-3" href="https://github.com/getpelican/pelican">Pelican</a>,
             e
-            <a class="orange-text text-lighten-3"
-               href="http://jetbrains.com/pycharm">PyCharm CE</a>.
+            <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>.
         </div>
     </div>
 </footer>
