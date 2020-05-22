@@ -12,3 +12,4 @@ poetry.lock
 pyproject.toml
 Pipfile
 Pipfile.lock
+.env
