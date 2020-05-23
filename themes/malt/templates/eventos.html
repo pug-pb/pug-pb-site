@@ -58,6 +58,20 @@
 
                     </div>
                 </div>
+                <br />
+
+                {% if 'media' in item %}
+                <!--   Icon Section   -->
+                <div class="row">
+                    <!--   Icon Element   -->
+                    {% for medium in item['media'] %}
+                    <div class="col m3">
+                        <img src="{{ medium }}" style="width:90%; height:90%;" />
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+
                 {% endfor %}
             </div>
             {% endif %}

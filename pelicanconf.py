@@ -166,15 +166,21 @@ MALT_HOME = [
 EVENTO_PROGRAMADO = [
     {
         "color": "red lighten-5",
-        "title": "Evento Programado",
+        "title": "Próximo Evento",
         "items": [
             {
                 "title": "1º MeetUp Virtual 2020",
                 "icon": "fa-calendar-check",
                 "text": "Live no nosso canal Youtube",
                 "date": "30/05/2020 16:00h",
-                "link": "https://youtu.be/rmCElTofs4s",
-                "talks": "https://bit.ly/pugpb-talks",
+                "link": "https://bit.ly/pugpb-meetup",
+                # "talks": "https://bit.ly/pugpb-talks",
+                "media": [
+                    "images/mv_2020_04_crop.jpg",
+                    "images/mv_2020_03_crop.jpg",
+                    "images/mv_2020_01_crop.jpg",
+                    "images/mv_2020_02_crop.jpg",
+                ],
             },
         ],
     },
