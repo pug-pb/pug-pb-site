@@ -3,7 +3,7 @@ Date: 2017-11-16 10:00
 Category: Blog
 Tags: pug-pb, blog
 Slug: parceria
-Authors: Fernando
+Authors: Fernando Júnior
 Summary: Jetbrains libera licenças para sortear nos nossos eventos
 image: /images/parceriaJetb.jpg
 

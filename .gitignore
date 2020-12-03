@@ -8,8 +8,6 @@ srv.pid
 .idea/
 .vscode/
 .tool-versions
-poetry.lock
-pyproject.toml
 Pipfile
 Pipfile.lock
 .env

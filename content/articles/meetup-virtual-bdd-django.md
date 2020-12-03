@@ -3,7 +3,7 @@ Date: 2017-12-02 15:00
 Category: Evento
 Tags: pug-pb, blog, evento
 Slug: meetup-virtual-bdd-django
-Authors: Fernando
+Authors: Fernando Júnior
 Summary: PUG-PB promove meetup virtual 
 image: /images/virtual-meetup.jpg
 

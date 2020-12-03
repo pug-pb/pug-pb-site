@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "pug-pb-site"
+version = "0.1.0"
+description = "Novo site da comunidade de usuários Python na Paraíba"
+authors = ["Hildeberto <hildeberto@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pelican = "^4.2.0"
+bs4 = "^0.0.1"
+markdown = "^3.2.2"
+Pillow = "^7.1.2"
+lxml = "^4.5.0"
+pygithub = "^1.51"
+python-dotenv = "^0.13.0"
+
+[tool.poetry.dev-dependencies]
+black = "^19.10b0"
+pylint = "^2.5.2"
+rope = "^0.17.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

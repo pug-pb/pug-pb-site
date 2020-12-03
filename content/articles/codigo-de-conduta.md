@@ -27,7 +27,7 @@ Desta forma, entendemos que:
 
 O público alvo da comunidade também inclui crianças e adolescentes, por isso buscamos manter um ambiente apropriado para todas as faixas etárias. Sendo assim, linguagem e imagens sexualizadas não são adequados para palestras e ações promocionais de patrocinadores.
 
-Se qualquer pessoa se sentiu assediada, discriminada indevidamente ou humilhada, ou presenciou alguma destas atitudes, por favor, entre em contato com a [Equipe de Resposta](mailto:pugpb_br@gmail.com) pelo e-mail "pugpb_br at gmail.com" ou envie a ocorrência pelo [Formulário](https://forms.gle/fpQxQJGX5GyQGg6HA).
+Se qualquer pessoa se sentiu assediada, discriminada indevidamente ou humilhada, ou presenciou alguma destas atitudes, por favor, entre em contato com a [Equipe de Resposta](mailto:pugpb.br@gmail.com) pelo e-mail "pugpb.br at gmail.com" ou envie a ocorrência pelo [Formulário](https://forms.gle/fpQxQJGX5GyQGg6HA).
 
 Havendo um relato de violação destes princípios, a Equipe de Resposta realizará a devida análise e, quando necessário, tomará as ações para impedir a reincidência. Estas ações podem ir, mas não se restringem nem implicam em, desde uma conversa em busca da retratação, até um convite a se retirar da comunidade por tempo indeterminado.
 

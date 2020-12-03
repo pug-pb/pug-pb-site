@@ -3,7 +3,7 @@ Date: 2017-11-18 10:00
 Category: Evento
 Tags: pug-pb, blog, evento
 Slug: primeiro-meetup
-Authors: Fernando, Hildeberto, Newton
+Authors: Fernando Júnior, Hildeberto, Newton Galiza
 Summary: Como foi o 1º MeetUp dp PUG-PB
 image: /images/primeiro-meetup-participantes.jpg
 

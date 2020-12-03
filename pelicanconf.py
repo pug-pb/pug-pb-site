@@ -38,7 +38,7 @@ EXTRA_PATH_METADATA = {
 
 WELCOME_TITLE = "Seja bem vindo ao {}!".format(SITENAME)
 WELCOME_TEXT = "Grupo de usuários da linguagem Python na Paraíba."
-SITE_BACKGROUND_IMAGE = "images/banners/inga-inscriçoes-rupestres.jpg"
+SITE_BACKGROUND_IMAGE = "images/banners/Lajedo_pai_mateus_paraiba.jpg"
 FOOTER_ABOUT = META_DESCRIPTION
 
 DEFAULT_LANG = "pt"
@@ -115,6 +115,10 @@ SOCIAL_LINKS = (
     {"href": "https://t.me/pugpb", "icon": "fa-paper-plane", "text": "Telegram",},
     {"href": "https://github.com/pug-pb", "icon": "fa-github", "text": "GitHub",},
     {"href": "https://twitter.com/pug_pb", "icon": "fa-twitter", "text": "Twitter",},
+    {"href": "https://www.instagram.com/pug.pb/", "icon": "fa-instagram", "text": "Instagram",},
+    {
+        "href": "https://www.youtube.com/channel/UClTpIg2FFOCzDKtiEy3F9FA", 
+        "icon": "fa-youtube", "text": "Youtube",},
     {
         "href": "https://www.facebook.com/pug-pb",
         "icon": "fa-facebook",
@@ -146,7 +150,7 @@ MALT_HOME = [
                 "title": "Comunidade",
                 "icon": "fa-comments",
                 "text": "A comunidade do PUG-PB se comunica através da lista "
-                "de email e do grupo no telegram, mas frequentemente "
+                "de email e do grupo no Telegram, mas frequentemente "
                 "são promovidos encontros diversos, como reuniões de "
                 "planejamento, meetups e oficinas. ",
                 "buttons": [{"text": "Saiba Mais", "href": "comunidade.html",},],
@@ -169,18 +173,18 @@ EVENTO_PROGRAMADO = [
         "title": "Próximo Evento",
         "items": [
             {
-                "title": "1º MeetUp Virtual 2020",
+                "title": "Nivelamento em Git",
                 "icon": "fa-calendar-check",
-                "text": "Live no nosso canal Youtube",
-                "date": "30/05/2020 16:00h",
-                "link": "https://bit.ly/pugpb-meetup",
+                "text": "Preparando os trabalhos para o Grupo de Estudos",
+                "date": "09/12/2020 19:00h",
+                # "link": "https://bit.ly/pugpb-meetup",
                 # "talks": "https://bit.ly/pugpb-talks",
-                "media": [
-                    "images/mv_2020_04_crop.jpg",
-                    "images/mv_2020_03_crop.jpg",
-                    "images/mv_2020_01_crop.jpg",
-                    "images/mv_2020_02_crop.jpg",
-                ],
+                # "media": [
+                #     "images/mv_2020_04_crop.jpg",
+                #     "images/mv_2020_03_crop.jpg",
+                #     "images/mv_2020_01_crop.jpg",
+                #     "images/mv_2020_02_crop.jpg",
+                # ],
             },
         ],
     },
@@ -191,6 +195,13 @@ EVENTOS_ANTERIORES = [
         "color": "red lighten-5",
         "title": "Eventos Anteriores",
         "items": [
+            {
+                "title": "1º MeetUp Virtual 2020",
+                "icon": "far fa-fire",
+                "text": "Meetup virtual 2020, com a presença de "
+                "Eduardo Mendes, entre outros ",
+                # "buttons": [{"text": "Mais detalhes", "href": "#",},],
+            },
             {
                 "title": "Python Nordeste 2018",
                 "icon": "far fa-sun",
