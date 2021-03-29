@@ -196,7 +196,7 @@ EVENTOS_ANTERIORES = [
         "title": "Eventos Anteriores",
         "items": [
             {
-                "title": "1º MeetUp Virtual 2020",
+                "title": "MeetUp Virtual 2020",
                 "icon": "far fa-fire",
                 "text": "Meetup virtual 2020, com a presença de "
                 "Eduardo Mendes, entre outros ",
