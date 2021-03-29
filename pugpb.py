@@ -1,3 +1,4 @@
+from typing import List
 from github import Github
 from collections import OrderedDict
 from dotenv import load_dotenv
@@ -6,7 +7,7 @@ import os
 load_dotenv()
 
 
-def members_of(organizations: [str]) -> OrderedDict:
+def members_of(organizations: List[str]) -> OrderedDict:
     GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
     g = Github(GITHUB_TOKEN)
 
