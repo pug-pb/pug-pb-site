@@ -11,3 +11,4 @@ srv.pid
 Pipfile
 Pipfile.lock
 .env
+pugpb_venv/
