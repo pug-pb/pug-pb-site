@@ -10,7 +10,7 @@ pelican = "^4.2.0"
 bs4 = "^0.0.1"
 markdown = "^3.2.2"
 Pillow = "^9.0.0"
-lxml = "^4.6.3"
+lxml = "^4.9.1"
 pygithub = "^1.51"
 python-dotenv = "^0.13.0"
 
