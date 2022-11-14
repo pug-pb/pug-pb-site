@@ -13,6 +13,10 @@ Pillow = "^9.0.0"
 lxml = "^4.9.1"
 pygithub = "^1.51"
 python-dotenv = "^0.13.0"
+pelican-sitemap = "^1.0.2"
+pelican-liquid-tags = "^1.0.3"
+beautifulsoup4 = "^4.11.1"
+pysvg = "^0.2.2"
 
 [tool.poetry.dev-dependencies]
 black = "^19.10b0"

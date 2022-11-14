@@ -3,6 +3,7 @@
 import os
 import sys
 from collections import OrderedDict
+from pelican.plugins import sitemap, liquid_tags
 
 sys.path.append(os.curdir)
 from pugpb import members_of
@@ -24,7 +25,7 @@ META_DESCRIPTION = """O PUG-PB é uma comunidade de usuários (profissionais e
 META_KEYWORDS = ["pug-pb", "python", "programação", "paraiba", "desenvolvimento"]
 
 TIMEZONE = "America/Recife"
-THEME = "themes/malt"
+THEME = "./themes/malt"
 MALT_BASE_COLOR = "red"
 
 SITE_LOGO = "images/logo/pug_logo.png"
@@ -80,11 +81,11 @@ CATEGORY_FEED_RSS = None
 
 DEFAULT_PAGINATION = False
 
-PLUGIN_PATHS = ["./.plugins"]
-PLUGINS = ["better_figures_and_images", "sitemap", "liquid_tags.youtube"]
+# PLUGIN_PATHS = ["./.plugins"]
+PLUGINS = [sitemap, liquid_tags]
 
-RESPONSIVE_IMAGES = True
-PYGMENTS_STYLE = "perldoc"
+# RESPONSIVE_IMAGES = True
+# PYGMENTS_STYLE = "perldoc"
 # PYGMENTS_STYLE = "friendly"
 SITEMAP = {
     "format": "xml",
@@ -117,8 +118,9 @@ SOCIAL_LINKS = (
     {"href": "https://twitter.com/pug_pb", "icon": "fa-twitter", "text": "Twitter",},
     {"href": "https://www.instagram.com/pug.pb/", "icon": "fa-instagram", "text": "Instagram",},
     {
-        "href": "https://www.youtube.com/channel/UClTpIg2FFOCzDKtiEy3F9FA", 
-        "icon": "fa-youtube", "text": "Youtube",},
+        "href": "https://www.youtube.com/@pug-pb",
+        "icon": "fa-youtube", "text": "Youtube",
+    },
     {
         "href": "https://www.facebook.com/pug-pb",
         "icon": "fa-facebook",
@@ -129,9 +131,15 @@ SOCIAL_LINKS = (
         "icon": "fa-envelope",
         "text": "Mailing List",
     },
+    {
+        "rel": "me",
+        "href": "https://bolha.us/@pugpb",
+        "text": "Mastodon",
+        "icon": "fa-mastodon"
+    }
 )
 
-MEMBROS = OrderedDict(members_of(["pug-pb", "PUG-PB-Traducao"]))
+MEMBROS = OrderedDict(members_of(["pug-pb"]))
 
 MALT_HOME = [
     {
@@ -173,10 +181,10 @@ EVENTO_PROGRAMADO = [
         "title": "Próximo Evento",
         "items": [
             {
-                "title": "Nivelamento em Git",
+                "title": "JamPython Day",
                 "icon": "fa-calendar-check",
-                "text": "Preparando os trabalhos para o Grupo de Estudos",
-                "date": "09/12/2020 19:00h",
+                "text": "João Pessoa Python Day 2022",
+                "date": "26/11/2022 14:00h",
                 # "link": "https://bit.ly/pugpb-meetup",
                 # "talks": "https://bit.ly/pugpb-talks",
                 # "media": [
