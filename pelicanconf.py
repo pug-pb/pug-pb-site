@@ -132,10 +132,9 @@ SOCIAL_LINKS = (
         "text": "Mailing List",
     },
     {
-        "rel": "me",
         "href": "https://bolha.us/@pugpb",
+        "icon": "fa-user-circle",
         "text": "Mastodon",
-        "icon": "fa-mastodon"
     }
 )
 
