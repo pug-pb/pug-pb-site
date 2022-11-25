@@ -42,7 +42,8 @@ WELCOME_TEXT = "Grupo de usuários da linguagem Python na Paraíba."
 SITE_BACKGROUND_IMAGE = "images/banners/Lajedo_pai_mateus_paraiba.jpg"
 FOOTER_ABOUT = META_DESCRIPTION
 
-DEFAULT_LANG = "pt"
+DEFAULT_LANG = "pt_BR"
+LOCALE = ("pt_BR",)
 
 ARTICLE_URL = "blog/{slug}"
 ARTICLE_SAVE_AS = "blog/{slug}/index.html"
