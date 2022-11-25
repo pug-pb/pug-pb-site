@@ -184,7 +184,7 @@ EVENTO_PROGRAMADO = [
                 "icon": "fa-calendar-check",
                 "text": "João Pessoa Python Day 2022",
                 "date": "26/11/2022 14:00h",
-                # "link": "https://bit.ly/pugpb-meetup",
+                "link": "/blog/meetup-virtual-jampython-day-1/",
                 # "talks": "https://bit.ly/pugpb-talks",
                 # "media": [
                 #     "images/mv_2020_04_crop.jpg",
