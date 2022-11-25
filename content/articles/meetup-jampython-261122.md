@@ -27,7 +27,7 @@ A sala comporta até 100 pessoas. Então garanta seu lugar.
 
 | Link do Google Meet                                                  | Link para o evento no google calendar                                                                                                                                                                 |
 |----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
- | [Sala do Google Meet (no dia)](https://meet.google.com/msy-mgqb-yqw) | [Google Calendar (pra reservar seu lugar)](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NDhzNnM3MW9uMzJudWNndG9tODIyNTBjb2Egam9uLnRyaWd1ZWlyb0Bt&tmsrc=jon.trigueiro%40gmail.com) |
+ | [Sala do Google Meet (no dia)](https://meet.google.com/msy-mgqb-yqw) | [Google Calendar (pra reservar seu lugar)](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NDhzNnM3MW9uMzJudWNndG9tODIyNTBjb2EgMjA5ZGRlZTQ0MWE0NGI0YTVjNTU5OTdhYjU4MzNkYzZhYTExMGYxM2JiYTE2M2I3MTJjOThhOWNkYjZiOWM1NkBn&tmsrc=209ddee441a44b4a5c55997ab5833dc6aa110f13bba163b712c98a9cdb6b9c56%40group.calendar.google.com) |
 
 ## Perdi o tempo de participar, e agora?
 
