@@ -7,21 +7,17 @@ authors = ["Hildeberto <hildeberto@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 pelican = "^4.2.0"
-bs4 = "^0.0.1"
 markdown = "^3.2.2"
 Pillow = "^9.0.0"
 lxml = "^4.9.1"
 pygithub = "^1.51"
-python-dotenv = "^0.13.0"
+python-dotenv = "^0.21.0"
 pelican-sitemap = "^1.0.2"
 pelican-liquid-tags = "^1.0.3"
 beautifulsoup4 = "^4.11.1"
 pysvg = "^0.2.2"
 
 [tool.poetry.dev-dependencies]
-black = "^19.10b0"
-pylint = "^2.5.2"
-rope = "^0.17.0"
 
 [build-system]
 requires = ["poetry>=0.12"]
