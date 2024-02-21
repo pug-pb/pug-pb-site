@@ -5,7 +5,7 @@ description = "Novo site da comunidade de usuários Python na Paraíba"
 authors = ["Hildeberto <hildeberto@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.10"
 pelican = "^4.2.0"
 markdown = "^3.2.2"
 Pillow = "^10.0.0"
