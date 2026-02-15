@@ -1,5 +1,5 @@
-PY?=python3
-PELICAN?=poetry run pelican
+PY?=uv run python3
+PELICAN?=uv run pelican
 PELICANOPTS=
 
 BASEDIR=$(CURDIR)
