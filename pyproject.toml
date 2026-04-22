@@ -13,7 +13,7 @@ dependencies = [
     "Pillow<13.0.0,>=12.1.1",
     "lxml>=6.1.0,<7.0.0",
     "pygithub<3.0.0,>=2.1.1",
-    "python-dotenv<2.0.0,>=1.0.0",
+    "python-dotenv>=1.2.2,<2.0.0",
 ]
 name = "pug-pb-site"
 version = "0.1.0"
