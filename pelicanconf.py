@@ -3,11 +3,11 @@
 import os
 import sys
 from collections import OrderedDict
-from pelican.plugins import sitemap, liquid_tags
+
+from pelican.plugins import sitemap
 
 sys.path.append(os.curdir)
 from pugpb import members_of
-
 
 AUTHOR = "PUG-PB"
 SITENAME = "PUG-PB"
@@ -19,7 +19,7 @@ RELATIVE_URLS = True
 
 META_DESCRIPTION = """O PUG-PB é uma comunidade de usuários (profissionais e
                       amadores) da linguagem Python, onde prezamos pela troca de
-                      conhecimento, respeito mútuo e diversidade (tanto de 
+                      conhecimento, respeito mútuo e diversidade (tanto de
                       opinião quanto de tecnologias)."""
 
 META_KEYWORDS = ["pug-pb", "python", "programação", "paraiba", "desenvolvimento"]
@@ -83,7 +83,7 @@ CATEGORY_FEED_RSS = None
 DEFAULT_PAGINATION = False
 
 # PLUGIN_PATHS = ["./.plugins"]
-PLUGINS = [sitemap, liquid_tags]
+PLUGINS = [sitemap]
 
 # RESPONSIVE_IMAGES = True
 # PYGMENTS_STYLE = "perldoc"
@@ -101,26 +101,64 @@ OPEN_GRAPH_IMAGE = "/images/logo/pug-logo.png"
 
 # Navbar Links
 NAVBAR_HOME_LINKS = [
-    {"title": "Eventos", "href": "eventos.html",},
-    {"title": "Comunidade", "href": "comunidade.html",},
-    {"title": "Membros", "href": "membros.html",},
-    {"title": "Blog", "href": "blog/index.html",},
+    {
+        "title": "Eventos",
+        "href": "eventos.html",
+    },
+    {
+        "title": "Comunidade",
+        "href": "comunidade.html",
+    },
+    {
+        "title": "Membros",
+        "href": "membros.html",
+    },
+    {
+        "title": "Blog",
+        "href": "blog/index.html",
+    },
 ]
 
 NAVBAR_BLOG_LINKS = [
-    {"title": "Categorias", "href": "blog/categorias/index.html",},
-    {"title": "Autores", "href": "blog/autores/index.html",},
-    {"title": "Tags", "href": "blog/tags/index.html",},
+    {
+        "title": "Categorias",
+        "href": "blog/categorias/index.html",
+    },
+    {
+        "title": "Autores",
+        "href": "blog/autores/index.html",
+    },
+    {
+        "title": "Tags",
+        "href": "blog/tags/index.html",
+    },
 ]
 
 SOCIAL_LINKS = (
-    {"href": "https://t.me/pugpb", "icon": "fa-paper-plane", "text": "Telegram",},
-    {"href": "https://github.com/pug-pb", "icon": "fa-github", "text": "GitHub",},
-    {"href": "https://twitter.com/pug_pb", "icon": "fa-twitter", "text": "Twitter",},
-    {"href": "https://www.instagram.com/pug.pb/", "icon": "fa-instagram", "text": "Instagram",},
+    {
+        "href": "https://t.me/pugpb",
+        "icon": "fa-paper-plane",
+        "text": "Telegram",
+    },
+    {
+        "href": "https://github.com/pug-pb",
+        "icon": "fa-github",
+        "text": "GitHub",
+    },
+    {
+        "href": "https://twitter.com/pug_pb",
+        "icon": "fa-twitter",
+        "text": "Twitter",
+    },
+    {
+        "href": "https://www.instagram.com/pug.pb/",
+        "icon": "fa-instagram",
+        "text": "Instagram",
+    },
     {
         "href": "https://www.youtube.com/@pug-pb",
-        "icon": "fa-youtube", "text": "Youtube",
+        "icon": "fa-youtube",
+        "text": "Youtube",
     },
     {
         "href": "https://www.facebook.com/pug-pb",
@@ -136,7 +174,7 @@ SOCIAL_LINKS = (
         "href": "https://bolha.us/@pugpb",
         "icon": "fa-user-circle",
         "text": "Mastodon",
-    }
+    },
 )
 
 MEMBROS = OrderedDict(members_of(["pug-pb"]))
@@ -152,7 +190,12 @@ MALT_HOME = [
                 "text": "Os eventos que a comunidade organizou e os que "
                 "estão programados pra acontecer. Informações, inscrições, "
                 "submissões de palestras.",
-                "buttons": [{"text": "Mais detalhes", "href": "eventos.html",},],
+                "buttons": [
+                    {
+                        "text": "Mais detalhes",
+                        "href": "eventos.html",
+                    },
+                ],
             },
             {
                 "title": "Comunidade",
@@ -161,7 +204,12 @@ MALT_HOME = [
                 "de email e do grupo no Telegram, mas frequentemente "
                 "são promovidos encontros diversos, como reuniões de "
                 "planejamento, meetups e oficinas. ",
-                "buttons": [{"text": "Saiba Mais", "href": "comunidade.html",},],
+                "buttons": [
+                    {
+                        "text": "Saiba Mais",
+                        "href": "comunidade.html",
+                    },
+                ],
             },
             {
                 "title": "Membros",
@@ -169,7 +217,12 @@ MALT_HOME = [
                 "text": "A comunidade do PUG-PB organiza eventos, mantém a "
                 "comunicação ativa, divulga eventos, mantém redes "
                 "sociais etc. ",
-                "buttons": [{"text": "Conheça", "href": "membros.html",},],
+                "buttons": [
+                    {
+                        "text": "Conheça",
+                        "href": "membros.html",
+                    },
+                ],
             },
         ],
     },
