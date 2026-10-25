@@ -9,10 +9,11 @@ dependencies = [
     "beautifulsoup4<5.0.0,>=4.15.0",
     "pysvg<1.0.0,>=0.2.2",
     "markdown<4.0.0,>=3.10.2",
-    "Pillow<13.0.0,>=12.3.0",
+    "Pillow<14.0.0,>=13.0.0",
     "lxml>=6.1.1,<7.0.0",
     "pygithub<3.0.0,>=2.9.1",
     "python-dotenv>=1.2.2,<2.0.0",
+    "pygments>=2.19.2",
 ]
 name = "pug-pb-site"
 version = "0.1.0"
